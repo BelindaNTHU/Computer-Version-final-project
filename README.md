@@ -9,3 +9,8 @@ conda install -c numba numba
 
 3.jupyter notebook(install in code line)
 pip install liborsa
+
+
+REFERENCE
+#feature_extraction.py
+https://github.com/cs-hasibul/Music-Feature-Extraction-in-Python/blob/main/Audio_Data_Analysis_Using_Deep_Learning_with_Python.ipynb
