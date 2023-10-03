@@ -34,3 +34,27 @@ n1 = 9100
 plt.figure(figsize=(14, 5))
 plt.plot(x[n0:n1])
 plt.grid()
+
+#spectral centroid -- centre of mass -- weighted mean of the frequencies present in the sound
+import sklearn
+from sklearn import preprocessing
+spectral_centroids = librosa.feature.spectral_centroid(y=x, sr=sr)[0]
+spectral_centroids.shape
+# Computing the time variable for visualization
+frames = range(len(spectral_centroids))
+t = librosa.frames_to_time(frames)
+# Normalising the spectral centroid for visualisation
+def normalize(x, axis=0):
+    return sklearn.preprocessing.minmax_scale(x, axis=axis)
+#Plotting the Spectral Centroid along the waveform
+librosa.display.waveshow(x, sr=sr, alpha=0.4)
+plt.plot(t, normalize(spectral_centroids), color='r')
+
+spectral_rolloff = librosa.feature.spectral_rolloff(y=x, sr=sr)[0]
+librosa.display.waveshow(x, sr=sr, alpha=0.4)
+plt.plot(t, normalize(spectral_rolloff), color='r')
+mfccs = librosa.feature.mfcc(y=x, sr=sr)
+print(mfccs.shape)
+
+#Displaying  the MFCCs:
+librosa.display.specshow(mfccs, sr=sr, x_axis='time')
