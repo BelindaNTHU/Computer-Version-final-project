@@ -10,6 +10,12 @@ conda install -c numba numba
 3.jupyter notebook(install in code line)
 pip install liborsa
 
+# Audio
+each length is limit to 10 second .mp3 format
+filename is groupname+number ex: road1
+
+#Image
+
 
 # REFERENCE
 feature_extraction.py
