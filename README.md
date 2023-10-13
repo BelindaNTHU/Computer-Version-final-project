@@ -1,4 +1,4 @@
-# Computer-Version-final-project
+![frequencyD_ambulance1](https://github.com/BelindaNTHU/Computer-Version-final-project/assets/146788377/b177fc61-0cfa-41eb-88ed-796356bf1d22)# Computer-Version-final-project
 install liborsa
 
 1.Conda Install
@@ -14,7 +14,12 @@ pip install liborsa
 each length is limit to 10 second .mp3 format
 filename is groupname+number ex: road1
 
-#Image
+# Image
+ex:road
+![FD_road1](https://github.com/BelindaNTHU/Computer-Version-final-project/assets/146788377/79f030ed-59fb-400a-9197-46e5a37ac44f)
+![TD_road1](https://github.com/BelindaNTHU/Computer-Version-final-project/assets/146788377/aa35f0ec-4c22-47ff-bddd-33c98844cc3b)
+ex:ambulance
+![timeD_ambulance1](https://github.com/BelindaNTHU/Computer-Version-final-project/assets/146788377/ce237bb4-32e6-4388-b9a4-b4adbbc9ce7b)ploading frequencyD_ambulance1.png…]()
 
 
 # REFERENCE
