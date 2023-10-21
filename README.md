@@ -13,6 +13,7 @@ pip install liborsa
 # Audio
 each length is limit to 10 second .mp3 format
 filename is groupname+number ex: road1
+four group 1.ambulance 2.police 3.road 4.crush
 
 # Image
 ex:road
