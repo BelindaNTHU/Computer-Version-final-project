@@ -20,8 +20,8 @@ import matplotlib.pyplot as plt
 import matplotlib
 import numpy as np
 
-audio_type='road'
-name="belinda"
+audio_type='road' #choose one group name
+name="belinda" #your name to seperate the photo
 
 for i in range (1):
     audio_data = 'audio/'+audio_type+str(i+1)+'.mp3'
