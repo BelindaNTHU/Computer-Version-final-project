@@ -11,11 +11,11 @@ conda install -c numba numba
 pip install liborsa
 
 # Audio
-1.each length is limit to 10 second .mp3 format
+each length is limit to 10 second .mp3 format
 
-2.filename is groupname+number ex: road1
+filename is groupname+number ex: road1
 
-3.four group 1.ambulance 2.police 3.road 4.crush
+four group 1.ambulance 2.police 3.road 4.crush
 
 # Image
 ex:road
