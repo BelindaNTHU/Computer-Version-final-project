@@ -23,8 +23,8 @@ import numpy as np
 audio_type='road' #choose one group name
 name="belinda" #your name to seperate the photo
 
-for i in range (1):
-    audio_data = 'audio/'+audio_type+str(i+1)+'.mp3'
+for i in range (10):
+    audio_data = 'audio/'+audio_type+' ('+str(i+1)+').mp3'
     x , sr = librosa.load(audio_data)
     print(x.shape, sr)#(220207,) 22050
     librosa.load(audio_data, sr=44100)
